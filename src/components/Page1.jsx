@@ -127,7 +127,7 @@ const Page1 = () => {
       {/* projects */}
       <section className='h-[300vh]' ref={container}>
         <motion.div
-          className='h-screen sticky top-0 -z-20 bg-gray-200 flex flex-col md:flex-row px-8 md:px-20 items-center justify-between rounded-lg'
+          className='min-h-screen sticky top-0 -z-20 bg-gray-200 flex flex-col md:flex-row px-8 md:px-20 items-center justify-center rounded-lg gap-4'
           scrollYProgress={scrollYProgressforprojects}
           style={{ scale: scaleforproject }}
         >
@@ -144,15 +144,13 @@ const Page1 = () => {
             <img
               src='https://images.app.goo.gl/Vi1d8G3WcNfWg15V9'
               alt='image'
-              className='bg-amber-100 rounded-lg -rotate-2'
-              width={600}
-              height={400}
+              className='bg-amber-100 rounded-lg md:-rotate-2 w-[300px] h-[200px] md:w-[600px] md:h-[400px]'
             />
           </div>
         </motion.div>
         <div className='h-[200vh]' ref={container2}>
           <motion.div
-            className='h-screen bg-gray-100 sticky -z-10 top-0  flex flex-col md:flex-row px-8 md:px-20 items-center justify-between rounded-lg'
+            className='h-screen bg-gray-100 sticky -z-10 top-0  flex flex-col md:flex-row px-8 md:px-20 items-center justify-center rounded-lg gap-4'
             scrollYProgress={scrollYProgressforprojects}
             style={{ scale: scaleForContainer2 }}
           >
@@ -169,14 +167,12 @@ const Page1 = () => {
               <img
                 src='https://images.app.goo.gl/Vi1d8G3WcNfWg15V9'
                 alt='image'
-                className='bg-amber-100 rounded-lg -rotate-2'
-                width={600}
-                height={400}
+                className='bg-amber-100 rounded-lg md:-rotate-2 w-[300px] h-[200px] md:w-[600px] md:h-[400px]'
               />
             </div>
           </motion.div>
           <motion.div
-            className='h-screen bg-gray-400   flex flex-col md:flex-row px-8 md:px-20 items-center justify-between '
+            className='h-screen bg-gray-400   flex flex-col md:flex-row px-8 md:px-20 items-center justify-center gap-4'
             scrollYProgress={scrollYProgressforprojects}
           >
             <div>
@@ -192,9 +188,7 @@ const Page1 = () => {
               <img
                 src='https://images.app.goo.gl/Vi1d8G3WcNfWg15V9'
                 alt='image'
-                className='bg-amber-100 rounded-lg -rotate-2'
-                width={600}
-                height={400}
+                className='bg-amber-100 rounded-lg md:-rotate-2 w-[300px] h-[200px] md:w-[600px] md:h-[400px]'
               />
             </div>
           </motion.div>

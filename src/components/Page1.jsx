@@ -173,9 +173,9 @@ const Page1 = () => {
         </div>
       </section>
       {/* projects */}
-      <section className='min-h-[300lvh] -z-30 bg-gray-200' ref={container}>
+      <section className='min-h-[300lvh] -z-30' ref={container}>
         <motion.div
-          className='min-h-screen sticky top-0 z-10 bg-[#ffffff] flex flex-col md:flex-row px-8 md:px-20 items-center justify-center rounded-lg gap-4'
+          className='min-h-screen sticky top-0 z-10 bg-orange-100 flex flex-col md:flex-row px-8 md:px-20 items-center justify-center rounded-lg gap-4'
           scrollYProgress={scrollYProgressforprojects}
           style={{ scale: scaleforproject }}
         >
@@ -205,22 +205,20 @@ const Page1 = () => {
           </div>
           <div className=''>
             <img
-              src='../../q3.jpeg'
+              src='../../quote.png'
               alt='image'
               className=' rounded-lg md:-rotate-2 w-[300px] h-[270px] md:w-[490px] md:h-[400px]'
             />
           </div>
         </motion.div>
-        <div className='min-h-[200lvh] z-50 bg-gray-200' ref={container2}>
+        <div className='min-h-[200lvh] z-50 ' ref={container2}>
           <motion.div
-            className='min-h-screen bg-[#ffffff] sticky z-20 top-0 flex flex-col-reverse md:flex-row-reverse px-8 md:px-20 items-center justify-center rounded-lg gap-4'
+            className='min-h-screen bg-gray-200 sticky z-20 top-0 flex flex-col-reverse md:flex-row-reverse px-8 md:px-20 items-center justify-center rounded-lg gap-4'
             scrollYProgress={scrollYProgressforprojects}
             style={{ scale: scaleForContainer2 }}
           >
             <div className='flex flex-col gap-4'>
-              <h1 className='text-2xl font-bold quicksand-bold hidden'>
-                Quote of the Day
-              </h1>
+              <h1 className='text-2xl font-bold quicksand-bold '>Big Brains</h1>
               <ul className='list-decimal tracking-wide opacity-70 font-thin pl-4 quicksand-regular'>
                 <li>Online tech course-selling platform</li>
                 <li>Simple and clean UI for better experience</li>
@@ -244,14 +242,14 @@ const Page1 = () => {
             </div>
             <div>
               <img
-                src='../../bb5.jpeg'
+                src='../../bb.png'
                 alt='image'
-                className='bg-amber-100 rounded-lg md:-rotate-2 w-[300px] h-[290px] md:w-[600px] md:h-[540px]'
+                className=' rounded-lg md:-rotate-2 w-[300px] h-[290px] md:w-[600px] md:h-[540px]'
               />
             </div>
           </motion.div>
           <motion.div
-            className='min-h-screen bg-[#fff] sticky top-0 z-30 flex flex-col md:flex-row px-8 md:px-20 items-center justify-center gap-4'
+            className='min-h-screen bg-blue-100 sticky top-0 z-30 flex flex-col md:flex-row px-8 md:px-20 items-center justify-center gap-4'
             scrollYProgress={scrollYProgressforprojects}
           >
             <div className='flex flex-col gap-4'>
@@ -286,7 +284,7 @@ const Page1 = () => {
             </div>
             <div>
               <img
-                src='../../qa6.jpeg'
+                src='../../qa.png'
                 alt='image'
                 className=' rounded-lg md:-rotate-2 w-[300px] h-[280px] md:w-[400px] md:h-[340px]'
               />
